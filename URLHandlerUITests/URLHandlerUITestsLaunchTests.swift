@@ -1,13 +1,13 @@
 //
-//  ZettelURLHandlerUITestsLaunchTests.swift
-//  ZettelURLHandlerUITests
+//  URLHandlerUITestsLaunchTests.swift
+//  URLHandlerUITests
 //
 //  Created by Joachim Bargsten on 04/01/2023.
 //
 
 import XCTest
 
-final class ZettelURLHandlerUITestsLaunchTests: XCTestCase {
+final class URLHandlerUITestsLaunchTests: XCTestCase {
   override class var runsForEachTargetApplicationUIConfiguration: Bool {
     true
   }

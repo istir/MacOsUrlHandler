@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF54FA782965A4B4008D321B /* ZettelURLHandlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA772965A4B4008D321B /* ZettelURLHandlerApp.swift */; };
+		CF54FA782965A4B4008D321B /* URLHandlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA772965A4B4008D321B /* URLHandlerApp.swift */; };
 		CF54FA7A2965A4B4008D321B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA792965A4B4008D321B /* ContentView.swift */; };
 		CF54FA7C2965A4B5008D321B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF54FA7B2965A4B5008D321B /* Assets.xcassets */; };
 		CF54FA7F2965A4B5008D321B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF54FA7E2965A4B5008D321B /* Preview Assets.xcassets */; };
-		CF54FA8A2965A4B5008D321B /* ZettelURLHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA892965A4B5008D321B /* ZettelURLHandlerTests.swift */; };
-		CF54FA942965A4B5008D321B /* ZettelURLHandlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA932965A4B5008D321B /* ZettelURLHandlerUITests.swift */; };
-		CF54FA962965A4B5008D321B /* ZettelURLHandlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA952965A4B5008D321B /* ZettelURLHandlerUITestsLaunchTests.swift */; };
+		CF54FA8A2965A4B5008D321B /* URLHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA892965A4B5008D321B /* URLHandlerTests.swift */; };
+		CF54FA942965A4B5008D321B /* URLHandlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA932965A4B5008D321B /* URLHandlerUITests.swift */; };
+		CF54FA962965A4B5008D321B /* URLHandlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA952965A4B5008D321B /* URLHandlerUITestsLaunchTests.swift */; };
 		CF54FAA32965A4D3008D321B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FAA22965A4D3008D321B /* main.swift */; };
 		CF54FAA52965A598008D321B /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FAA42965A598008D321B /* util.swift */; };
-		CF54FAA92965BF5D008D321B /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = CF54FAA82965BF5D008D321B /* Yams */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,29 +24,29 @@
 			containerPortal = CF54FA6C2965A4B4008D321B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF54FA732965A4B4008D321B;
-			remoteInfo = ZettelURLHandler;
+			remoteInfo = URLHandler;
 		};
 		CF54FA902965A4B5008D321B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CF54FA6C2965A4B4008D321B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF54FA732965A4B4008D321B;
-			remoteInfo = ZettelURLHandler;
+			remoteInfo = URLHandler;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CF54FA742965A4B4008D321B /* ZettelURLHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZettelURLHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF54FA772965A4B4008D321B /* ZettelURLHandlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZettelURLHandlerApp.swift; sourceTree = "<group>"; };
+		CF54FA742965A4B4008D321B /* URLHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF54FA772965A4B4008D321B /* URLHandlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHandlerApp.swift; sourceTree = "<group>"; };
 		CF54FA792965A4B4008D321B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF54FA7B2965A4B5008D321B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF54FA7E2965A4B5008D321B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CF54FA802965A4B5008D321B /* ZettelURLHandler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZettelURLHandler.entitlements; sourceTree = "<group>"; };
-		CF54FA852965A4B5008D321B /* ZettelURLHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZettelURLHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF54FA892965A4B5008D321B /* ZettelURLHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZettelURLHandlerTests.swift; sourceTree = "<group>"; };
-		CF54FA8F2965A4B5008D321B /* ZettelURLHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZettelURLHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF54FA932965A4B5008D321B /* ZettelURLHandlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZettelURLHandlerUITests.swift; sourceTree = "<group>"; };
-		CF54FA952965A4B5008D321B /* ZettelURLHandlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZettelURLHandlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF54FA802965A4B5008D321B /* URLHandler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = URLHandler.entitlements; sourceTree = "<group>"; };
+		CF54FA852965A4B5008D321B /* URLHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF54FA892965A4B5008D321B /* URLHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHandlerTests.swift; sourceTree = "<group>"; };
+		CF54FA8F2965A4B5008D321B /* URLHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF54FA932965A4B5008D321B /* URLHandlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHandlerUITests.swift; sourceTree = "<group>"; };
+		CF54FA952965A4B5008D321B /* URLHandlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHandlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF54FAA22965A4D3008D321B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CF54FAA42965A598008D321B /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
 		CF54FAA62965B3AF008D321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -58,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF54FAA92965BF5D008D321B /* Yams in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +80,9 @@
 		CF54FA6B2965A4B4008D321B = {
 			isa = PBXGroup;
 			children = (
-				CF54FA762965A4B4008D321B /* ZettelURLHandler */,
-				CF54FA882965A4B5008D321B /* ZettelURLHandlerTests */,
-				CF54FA922965A4B5008D321B /* ZettelURLHandlerUITests */,
+				CF54FA762965A4B4008D321B /* URLHandler */,
+				CF54FA882965A4B5008D321B /* URLHandlerTests */,
+				CF54FA922965A4B5008D321B /* URLHandlerUITests */,
 				CF54FA752965A4B4008D321B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,26 +90,26 @@
 		CF54FA752965A4B4008D321B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF54FA742965A4B4008D321B /* ZettelURLHandler.app */,
-				CF54FA852965A4B5008D321B /* ZettelURLHandlerTests.xctest */,
-				CF54FA8F2965A4B5008D321B /* ZettelURLHandlerUITests.xctest */,
+				CF54FA742965A4B4008D321B /* URLHandler.app */,
+				CF54FA852965A4B5008D321B /* URLHandlerTests.xctest */,
+				CF54FA8F2965A4B5008D321B /* URLHandlerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF54FA762965A4B4008D321B /* ZettelURLHandler */ = {
+		CF54FA762965A4B4008D321B /* URLHandler */ = {
 			isa = PBXGroup;
 			children = (
 				CF54FAA62965B3AF008D321B /* Info.plist */,
-				CF54FA772965A4B4008D321B /* ZettelURLHandlerApp.swift */,
+				CF54FA772965A4B4008D321B /* URLHandlerApp.swift */,
 				CF54FA792965A4B4008D321B /* ContentView.swift */,
 				CF54FA7B2965A4B5008D321B /* Assets.xcassets */,
-				CF54FA802965A4B5008D321B /* ZettelURLHandler.entitlements */,
+				CF54FA802965A4B5008D321B /* URLHandler.entitlements */,
 				CF54FA7D2965A4B5008D321B /* Preview Content */,
 				CF54FAA22965A4D3008D321B /* main.swift */,
 				CF54FAA42965A598008D321B /* util.swift */,
 			);
-			path = ZettelURLHandler;
+			path = URLHandler;
 			sourceTree = "<group>";
 		};
 		CF54FA7D2965A4B5008D321B /* Preview Content */ = {
@@ -122,29 +120,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CF54FA882965A4B5008D321B /* ZettelURLHandlerTests */ = {
+		CF54FA882965A4B5008D321B /* URLHandlerTests */ = {
 			isa = PBXGroup;
 			children = (
-				CF54FA892965A4B5008D321B /* ZettelURLHandlerTests.swift */,
+				CF54FA892965A4B5008D321B /* URLHandlerTests.swift */,
 			);
-			path = ZettelURLHandlerTests;
+			path = URLHandlerTests;
 			sourceTree = "<group>";
 		};
-		CF54FA922965A4B5008D321B /* ZettelURLHandlerUITests */ = {
+		CF54FA922965A4B5008D321B /* URLHandlerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CF54FA932965A4B5008D321B /* ZettelURLHandlerUITests.swift */,
-				CF54FA952965A4B5008D321B /* ZettelURLHandlerUITestsLaunchTests.swift */,
+				CF54FA932965A4B5008D321B /* URLHandlerUITests.swift */,
+				CF54FA952965A4B5008D321B /* URLHandlerUITestsLaunchTests.swift */,
 			);
-			path = ZettelURLHandlerUITests;
+			path = URLHandlerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF54FA732965A4B4008D321B /* ZettelURLHandler */ = {
+		CF54FA732965A4B4008D321B /* URLHandler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF54FA992965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandler" */;
+			buildConfigurationList = CF54FA992965A4B5008D321B /* Build configuration list for PBXNativeTarget "URLHandler" */;
 			buildPhases = (
 				CF54FA702965A4B4008D321B /* Sources */,
 				CF54FA712965A4B4008D321B /* Frameworks */,
@@ -154,17 +152,16 @@
 			);
 			dependencies = (
 			);
-			name = ZettelURLHandler;
+			name = URLHandler;
 			packageProductDependencies = (
-				CF54FAA82965BF5D008D321B /* Yams */,
 			);
-			productName = ZettelURLHandler;
-			productReference = CF54FA742965A4B4008D321B /* ZettelURLHandler.app */;
+			productName = URLHandler;
+			productReference = CF54FA742965A4B4008D321B /* URLHandler.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CF54FA842965A4B5008D321B /* ZettelURLHandlerTests */ = {
+		CF54FA842965A4B5008D321B /* URLHandlerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF54FA9C2965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandlerTests" */;
+			buildConfigurationList = CF54FA9C2965A4B5008D321B /* Build configuration list for PBXNativeTarget "URLHandlerTests" */;
 			buildPhases = (
 				CF54FA812965A4B5008D321B /* Sources */,
 				CF54FA822965A4B5008D321B /* Frameworks */,
@@ -175,14 +172,14 @@
 			dependencies = (
 				CF54FA872965A4B5008D321B /* PBXTargetDependency */,
 			);
-			name = ZettelURLHandlerTests;
-			productName = ZettelURLHandlerTests;
-			productReference = CF54FA852965A4B5008D321B /* ZettelURLHandlerTests.xctest */;
+			name = URLHandlerTests;
+			productName = URLHandlerTests;
+			productReference = CF54FA852965A4B5008D321B /* URLHandlerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CF54FA8E2965A4B5008D321B /* ZettelURLHandlerUITests */ = {
+		CF54FA8E2965A4B5008D321B /* URLHandlerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF54FA9F2965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandlerUITests" */;
+			buildConfigurationList = CF54FA9F2965A4B5008D321B /* Build configuration list for PBXNativeTarget "URLHandlerUITests" */;
 			buildPhases = (
 				CF54FA8B2965A4B5008D321B /* Sources */,
 				CF54FA8C2965A4B5008D321B /* Frameworks */,
@@ -193,9 +190,9 @@
 			dependencies = (
 				CF54FA912965A4B5008D321B /* PBXTargetDependency */,
 			);
-			name = ZettelURLHandlerUITests;
-			productName = ZettelURLHandlerUITests;
-			productReference = CF54FA8F2965A4B5008D321B /* ZettelURLHandlerUITests.xctest */;
+			name = URLHandlerUITests;
+			productName = URLHandlerUITests;
+			productReference = CF54FA8F2965A4B5008D321B /* URLHandlerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CF54FA6F2965A4B4008D321B /* Build configuration list for PBXProject "ZettelURLHandler" */;
+			buildConfigurationList = CF54FA6F2965A4B4008D321B /* Build configuration list for PBXProject "URLHandler" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -231,15 +228,14 @@
 			);
 			mainGroup = CF54FA6B2965A4B4008D321B;
 			packageReferences = (
-				CF54FAA72965BF5D008D321B /* XCRemoteSwiftPackageReference "Yams" */,
 			);
 			productRefGroup = CF54FA752965A4B4008D321B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF54FA732965A4B4008D321B /* ZettelURLHandler */,
-				CF54FA842965A4B5008D321B /* ZettelURLHandlerTests */,
-				CF54FA8E2965A4B5008D321B /* ZettelURLHandlerUITests */,
+				CF54FA732965A4B4008D321B /* URLHandler */,
+				CF54FA842965A4B5008D321B /* URLHandlerTests */,
+				CF54FA8E2965A4B5008D321B /* URLHandlerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF54FA7A2965A4B4008D321B /* ContentView.swift in Sources */,
-				CF54FA782965A4B4008D321B /* ZettelURLHandlerApp.swift in Sources */,
+				CF54FA782965A4B4008D321B /* URLHandlerApp.swift in Sources */,
 				CF54FAA32965A4D3008D321B /* main.swift in Sources */,
 				CF54FAA52965A598008D321B /* util.swift in Sources */,
 			);
@@ -286,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF54FA8A2965A4B5008D321B /* ZettelURLHandlerTests.swift in Sources */,
+				CF54FA8A2965A4B5008D321B /* URLHandlerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF54FA942965A4B5008D321B /* ZettelURLHandlerUITests.swift in Sources */,
-				CF54FA962965A4B5008D321B /* ZettelURLHandlerUITestsLaunchTests.swift in Sources */,
+				CF54FA942965A4B5008D321B /* URLHandlerUITests.swift in Sources */,
+				CF54FA962965A4B5008D321B /* URLHandlerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		CF54FA872965A4B5008D321B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF54FA732965A4B4008D321B /* ZettelURLHandler */;
+			target = CF54FA732965A4B4008D321B /* URLHandler */;
 			targetProxy = CF54FA862965A4B5008D321B /* PBXContainerItemProxy */;
 		};
 		CF54FA912965A4B5008D321B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF54FA732965A4B4008D321B /* ZettelURLHandler */;
+			target = CF54FA732965A4B4008D321B /* URLHandler */;
 			targetProxy = CF54FA902965A4B5008D321B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,21 +431,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ZettelURLHandler/ZettelURLHandler.entitlements;
+				CODE_SIGN_ENTITLEMENTS = URLHandler/URLHandler.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ZettelURLHandler/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"URLHandler/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D3CTUYLKS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZettelURLHandler/Info.plist;
+				INFOPLIST_FILE = URLHandler/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.istir.urlhandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,21 +459,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ZettelURLHandler/ZettelURLHandler.entitlements;
+				CODE_SIGN_ENTITLEMENTS = URLHandler/URLHandler.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ZettelURLHandler/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"URLHandler/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D3CTUYLKS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZettelURLHandler/Info.plist;
+				INFOPLIST_FILE = URLHandler/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.istir.urlhandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -492,11 +492,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandlerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.URLHandlerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZettelURLHandler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZettelURLHandler";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLHandler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/URLHandler";
 			};
 			name = Debug;
 		};
@@ -510,11 +510,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandlerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.URLHandlerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZettelURLHandler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZettelURLHandler";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLHandler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/URLHandler";
 			};
 			name = Release;
 		};
@@ -526,11 +526,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandlerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.URLHandlerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = ZettelURLHandler;
+				TEST_TARGET_NAME = URLHandler;
 			};
 			name = Debug;
 		};
@@ -542,18 +542,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandlerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.URLHandlerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = ZettelURLHandler;
+				TEST_TARGET_NAME = URLHandler;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF54FA6F2965A4B4008D321B /* Build configuration list for PBXProject "ZettelURLHandler" */ = {
+		CF54FA6F2965A4B4008D321B /* Build configuration list for PBXProject "URLHandler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF54FA972965A4B5008D321B /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF54FA992965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandler" */ = {
+		CF54FA992965A4B5008D321B /* Build configuration list for PBXNativeTarget "URLHandler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF54FA9A2965A4B5008D321B /* Debug */,
@@ -571,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF54FA9C2965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandlerTests" */ = {
+		CF54FA9C2965A4B5008D321B /* Build configuration list for PBXNativeTarget "URLHandlerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF54FA9D2965A4B5008D321B /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF54FA9F2965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandlerUITests" */ = {
+		CF54FA9F2965A4B5008D321B /* Build configuration list for PBXNativeTarget "URLHandlerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF54FAA02965A4B5008D321B /* Debug */,
@@ -590,25 +590,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		CF54FAA72965BF5D008D321B /* XCRemoteSwiftPackageReference "Yams" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/jpsim/Yams";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		CF54FAA82965BF5D008D321B /* Yams */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CF54FAA72965BF5D008D321B /* XCRemoteSwiftPackageReference "Yams" */;
-			productName = Yams;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CF54FA6C2965A4B4008D321B /* Project object */;
 }

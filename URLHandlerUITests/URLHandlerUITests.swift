@@ -1,13 +1,13 @@
 //
-//  ZettelURLHandlerUITests.swift
-//  ZettelURLHandlerUITests
+//  URLHandlerUITests.swift
+//  URLHandlerUITests
 //
 //  Created by Joachim Bargsten on 04/01/2023.
 //
 
 import XCTest
 
-final class ZettelURLHandlerUITests: XCTestCase {
+final class URLHandlerUITests: XCTestCase {
   override func setUpWithError() throws {
     // Put setup code here. This method is called before the invocation of each test method in the class.
 

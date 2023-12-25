@@ -1,4 +1,4 @@
 .PHONY: fmt
 
 fmt:
-	swiftformat ZettelURLHandler/ ZettelURLHandlerTests/ ZettelURLHandlerUITests/
+	swiftformat URLHandler/ URLHandlerTests/ URLHandlerUITests/
